@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+
+    let { data } = $props();
+
+</script>
+
+<div>
+    Hello
+
+    <p>{data.v}</p>
+    <p>{data.v1}</p>
+    <p>{data.v2}</p>
+    <p>{data.v3}</p>
+    <p>{data.v4}</p>
+</div>
